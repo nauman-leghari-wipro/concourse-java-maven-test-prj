@@ -10,8 +10,8 @@ inputs:
   - name: git-repo
 
 outputs:
-  - name: target
-  
+  - name: jar-file
+    path: target
+
 run:
-  path: mvn
-  args: ["-f", "git-repo/pom.xml", "-DskipTests=true", "package"]
+  path: git-repo/pipeline/package.sh
