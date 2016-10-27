@@ -9,6 +9,7 @@ image_resource:
 inputs:
   - name: git-repo
   - name: target
+  - name: some-files
 
 run:
   path: find

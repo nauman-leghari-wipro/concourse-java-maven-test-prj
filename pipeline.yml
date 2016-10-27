@@ -13,6 +13,7 @@ resources:
 
 jobs:
   - name: maven-package
+    public: true
     plan:
     - aggregate:
       - get: git-repo
