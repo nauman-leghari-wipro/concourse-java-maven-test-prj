@@ -11,7 +11,7 @@ inputs:
 
 outputs:
   - name: jar-file
-    path: target
+    path: target/
 
 run:
   path: git-repo/pipeline/package.sh
