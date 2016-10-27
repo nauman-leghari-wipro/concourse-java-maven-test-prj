@@ -1,4 +1,4 @@
 #!/bin/sh
 
 mvn -f git-repo/pom.xml -DskipTests=true package
-ls target/*
+ls git-repo/target/*
