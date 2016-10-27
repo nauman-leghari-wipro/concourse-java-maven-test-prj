@@ -8,7 +8,7 @@ image_resource:
 
 inputs:
   - name: time
-  - name: jar-file
+  - name: target
 
 outputs:
   - name: jar-file-renamed
@@ -16,4 +16,4 @@ outputs:
 
 run:
   path: cp
-  args: ["jar-file", "jar-file-renamed/concourse-java-maven-test-prj-{{time}}.jar"]
+  args: ["target/concourse-java-maven-test-prj-0.0.1-SNAPSHOT.jar", "jar-file-renamed/concourse-java-maven-test-prj-{{time}}.jar"]
