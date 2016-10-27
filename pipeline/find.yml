@@ -7,8 +7,9 @@ image_resource:
     tag: latest
 
 inputs:
+  - name: git-repo
   - name: target
-    
+
 run:
   path: find
   args: ["."]
