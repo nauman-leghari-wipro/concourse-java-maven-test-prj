@@ -11,6 +11,7 @@ inputs:
 
 outputs:
   - name: target
+    path: git-repo/target/
   - name: some-files
 
 run:
