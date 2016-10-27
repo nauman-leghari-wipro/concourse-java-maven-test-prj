@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mvn -f pom.xml -DskipTests=true package
+mvn -f git-repo/pom.xml -DskipTests=true package
 find .
