@@ -15,5 +15,5 @@ outputs:
     path: jar-file-renamed
 
 run:
-  path: mv
+  path: cp
   args: ["jar-file", "jar-file-renamed/concourse-java-maven-test-prj-{{time}}.jar"]
