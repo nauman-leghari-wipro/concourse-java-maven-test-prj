@@ -7,8 +7,8 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: jar-file
-
+  - name: target
+    
 run:
   path: find
   args: ["."]
